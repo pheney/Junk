@@ -45,3 +45,15 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+/*
+!.gitignore
+
+# Ignore Unity Assets, except C# and JS files
+Assets/*
+!Assets/*.js
+!Assets/*.cs
+
+# Ignore Unity Library (all binaries)
+Library/*
+
