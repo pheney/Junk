@@ -59,5 +59,6 @@ Assets/*
 Assets/Porche/*
 
 # Keep C# and JS files in Assets/Porche
-!Assets/Porche/*.js
-!Assets/Porche/*.cs
+!*.js
+!*.cs
+!*.png
