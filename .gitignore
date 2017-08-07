@@ -46,14 +46,17 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Ignore everything by default
 /*
+
+# Except the .gitignore file, and the Assets directory
 !.gitignore
+!Assets/
 
-# Ignore Unity Assets, except C# and JS files
+# Ignore everything in Assets, except C# and JS files
 Assets/*
-!Assets/*.js
-!Assets/*.cs
 
-# Ignore Unity Library (all binaries)
-Library/*
-
+!Assets/Porche/
+Assets/Porche/*
+!Assets/Porche/*.js
+!Assets/Porche/*.cs
