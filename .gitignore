@@ -52,10 +52,10 @@ Temporary Items
 # Except the .gitignore file, and the Assets directory
 !.gitignore
 !Assets/
-!Assets/Porche/
+Assets/*
 
 # Ignore everything in Assets and Porche
-Assets/*
+!Assets/Porche/
 Assets/Porche/*
 
 # Keep C# and JS files in Assets/Porche
